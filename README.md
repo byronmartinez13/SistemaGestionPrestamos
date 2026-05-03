@@ -21,7 +21,7 @@ Sistema de consola en Python para gestionar empleados, préstamos y pagos, con p
 ---
 
 ## 📁 Estructura del proyecto (MVC)
-
+```text
 POO Sistema de gestión de prestamos/
 ├── main.py # Punto de entrada
 ├── README.md
@@ -55,11 +55,11 @@ POO Sistema de gestión de prestamos/
 ├── employees.json
 ├── loans.json
 └── payments.json
-
+```
 ---
 
 ## 🏗️ Arquitectura por capas
-
+```text
 ┌─────────────────────────────────────────────────────┐
 │ main.py → views/Menu (V — Presentación) │
 └────────────────────────┬────────────────────────────┘
@@ -88,7 +88,7 @@ POO Sistema de gestión de prestamos/
 data/employees.json
 data/loans.json
 data/payments.json
-
+```
 ---
 
 ## 🚀 Funcionalidades
@@ -183,6 +183,7 @@ data/payments.json
 ## 🛠️ Validaciones implementadas
 
 |Validación | Descripción |
+|---|---|
 |✅ Cédula ecuatoriana | 10 dígitos, provincia válida, dígito verificador |
 |✅ Nombre | Solo letras y espacios, no vacío |
 |✅ Sueldo | Número positivo |
@@ -193,7 +194,7 @@ data/payments.json
 |✅ Valores negativos| No permitidos en ningún campo |
 
 ## 🔧 Conceptos POO aplicados
-
+|---|---|
 |Concepto | Dónde se aplica |
 |Encapsulamiento | Modelos con propiedades privadas y métodos públicos |
 |Herencia | Empleado(Base), Prestamo(Base), Pago(Base) |
@@ -204,7 +205,7 @@ data/payments.json
 |Separación por capas| MVC claro: models/views/controllers/core |
 
 ## 🖥️ Menú principal
-
+```text
 =======================================================
 🏦 SISTEMA DE GESTIÓN DE PRÉSTAMOS
 =======================================================
@@ -215,7 +216,7 @@ data/payments.json
 4. 🔍 Consultar / Reportes
 5. 📊 Estadísticas
 6. 🚪 Salir
-
+```
 ### Submenú de Empleados
 
 ---
@@ -287,7 +288,7 @@ Los archivos JSON se crearán automáticamente en la carpeta data/ al registrar 
 5. Estadísticas: Ver resumen de todo el sistema
 
 ### 📊 Ejemplo de salida de estadísticas
-
+```text
 ==================================================
 📊 ESTADÍSTICAS DEL SISTEMA
 ==================================================
@@ -314,6 +315,7 @@ Monto total pagado: $12500.00
 Promedio pago: $1562.50
 Pago máximo: $2500.00
 Pago mínimo: $500.00
+```
 
 ## 🧪 Validación de cédula ecuatoriana
 
