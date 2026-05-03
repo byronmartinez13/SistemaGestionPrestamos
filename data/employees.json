@@ -1,0 +1,38 @@
+[
+    {
+        "id": "EMP-0004",
+        "cedula": "0953393568",
+        "nombre": "Byron López",
+        "sueldo": 10000.0
+    },
+    {
+        "id": "EMP-0005",
+        "cedula": "0953393568",
+        "nombre": "Melissa Martinez",
+        "sueldo": 7500.0
+    },
+    {
+        "id": "EMP-0006",
+        "cedula": "0953393584",
+        "nombre": "Ruben Martínez",
+        "sueldo": 3000.0
+    },
+    {
+        "id": "EMP-0007",
+        "cedula": "0953393568",
+        "nombre": "Byron Martínez",
+        "sueldo": 5000.0
+    },
+    {
+        "id": "EMP-0008",
+        "cedula": "0953393568",
+        "nombre": "Byron Martínez",
+        "sueldo": 5000.0
+    },
+    {
+        "id": "EMP-0009",
+        "cedula": "0953393584",
+        "nombre": "Saul",
+        "sueldo": 1200.0
+    }
+]

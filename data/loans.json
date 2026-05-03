@@ -1,0 +1,16 @@
+[
+    {
+        "id": "PRE-0002",
+        "empleado": {
+            "id": "EMP-0005",
+            "cedula": "0953393568",
+            "nombre": "Melissa Martinez",
+            "sueldo": 5000.0
+        },
+        "fecha": "2026-04-30",
+        "monto": 15000.0,
+        "cuotas": 20,
+        "cuota": 750.0,
+        "saldo": 13500.0
+    }
+]
